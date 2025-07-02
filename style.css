@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('assets/logo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #ffffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.btn:hover {
+  background: #ddd;
+}
